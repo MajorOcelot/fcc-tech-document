@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(
+        90deg,
+        darkorange,
+        black
+    );
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: %;
+}
+
+h1 {
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+
