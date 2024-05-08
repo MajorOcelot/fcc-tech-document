@@ -1,7 +1,7 @@
 html {
     display: flex;
     justify-content: center;
-    background-image: url('https://i.imgur.com/RkC2yip.jpeg');
+    background-color: black;
     background-size: cover;
     font-family: Tahoma;
 }
@@ -12,23 +12,41 @@ body {
     border: 2px solid black;
     border-radius: 12px;
     padding: 48px;
-    width: 50%;
+    width: 75%;
 }
 
-#gravgun {
-    width: 250px;
-    height: 10%;
+#headerDirectory {
+    color: grey;
+    margin-bottom: -8px;
+    font-style: italic;
+    font-family: sans-serif;
+    border: 1px solid grey;
+    border-radius: 0px;
+    width: 72px;
+    padding: 8px;
 }
 
 nav {
     display: flex;
-    justify-content: flex-start;
-    height: 250px;
+    flex-direction: column;
+    height: 100%;
     border: 2px solid black;
     padding: 24px;
-    border-radius: 12px;
     position: fixed;
     background-color: black;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+#gravgun {
+    width: 525px;
+    height: 500px;
+    margin: 24px;
 }
 
 section {
@@ -47,18 +65,25 @@ ol {
     padding-inline-start: 0;
 }
 
+#appearLi {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 main {
     display: flex;
     flex-direction: column;
 }
 
-h1 {
+header {
     border: 2px solid black;
     border-radius: 12px;
     text-align: center;
     width: 50%;
     margin: 8px;
     padding: 4px;
+    background-color: black;
+    color: white;
 }
 
 p {
@@ -70,7 +95,7 @@ li {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 6px;
     padding-bottom: 12px;
 }
 
@@ -78,3 +103,15 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.codepad {
+    margin: 4px;
+    padding: 8px;
+}
+
+@media (hover: hover) {
+    a:hover {
+      color: orange;
+      transition-duration: 1s;
+    }
+  }
